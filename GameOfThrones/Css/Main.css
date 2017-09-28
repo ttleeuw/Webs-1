@@ -30,12 +30,12 @@ nav {
 }
 
 
-li {
+.nav1 li {
     float: left;
   
 }
 
-li a, .dropbtn {
+.nav1 li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -43,7 +43,7 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+.nav1 li a:hover, .dropdown:hover .dropbtn {
     background-color: #C20114;
 }
 
@@ -115,6 +115,25 @@ li a:hover, .dropdown:hover .dropbtn {
 .contactlist {
     list-style-type: none;
     background-color: #121818;
+}
+.contactlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.contactlist li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.contactlist li a:hover, .dropdown:hover .dropbtn {
+    background-color: #C20114;
 }
 
 .copyright {
