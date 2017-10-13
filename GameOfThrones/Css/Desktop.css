@@ -20,8 +20,10 @@
         
     }
     
-    nav {
 
+/*////////////// nav ////////////////*/
+    nav {
+        position: fixed;
         width: 100%;
     }
     
@@ -73,11 +75,17 @@
     .dropdown:hover .dropdown-content {
         display: block;
     }
+    /*////////////// end nav ////////////////*/
     
-    
-    
+    .LandscapePicTop {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
     .LandscapePic {
         width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
     
     .row{
@@ -87,6 +95,7 @@
     
     }
     
+    /*////////////// collums ////////////////*/
     .col1 {
         width: 100%;
         text-align: center;
@@ -97,6 +106,8 @@
         width: 50%;
         text-align: center;
         padding: 5px;
+        float: left;
+        margin: 5%;
     }
     
     .col3 {
@@ -105,28 +116,58 @@
         padding: 5px;
     
     }
-    
+    /*////////////// end collums ////////////////*/
+
+
     .contact {
-        background-color: #121818;;
-        color: white;
-    }
-    
-    .default_button {
-        color: white;
+        float: left;
         background-color: #121818;
+        color: white;
     }
-    
+
+    /*////////////// about us ////////////////*/
+    .backgroundAboutus {
+        display: inline-block;
+        background: white;
+        color: #121818;
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    .backgroundPortfolio {
+        width: 100%;
+    }
+
+    .aboutus {
+        width: 20%;
+        border-radius: 50%;
+    }
+
+    .Introducing {
+        width: 20%;
+    }
+
+    .Pic {
+
+    }
+    /*////////////// end about us ////////////////*/
+
+    /*////////////// footer ////////////////*/
     .contactlist {
+        display: flex;
+        flex-direction: column;
         list-style-type: none;
-        background-color: #121818;
+        text-align: center;
     }
     
     .copyright {
-        background-color: #121818;;
-        color: white;
         text-align: center;
         width: 100%;
         clear: both;
     }
+    /*////////////// end footer ////////////////*/
 
 }
