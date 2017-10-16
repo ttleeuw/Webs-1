@@ -18,6 +18,7 @@
         
     }
     
+    /*////////////// nav ////////////////*/
     nav {
         position: fixed;
         width: 100%;
@@ -116,6 +117,8 @@
     
     }
     
+
+    /*////////////// columns ////////////////*/
     .col1 {
         width: 100%;
         text-align: center;
@@ -134,47 +137,51 @@
         padding-top: 5px;
         padding-bottom: 5px;
     }
-    
-    .contact {
-        background-color: #121818;;
-        color: white;
-    }
-    
-    .default_button {
-        color: white;
-        background-color: #121818;
-    }
-    
-    .contactlist {
-        list-style-type: none;
-        background-color: #121818;
-    }
-    .contactlist {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-    
-    
-    .contactlist li a, .dropbtn, p {
+    /*////////////// end columns ////////////////*/
+
+    /*////////////// about us ////////////////*/
+    .backgroundAboutus {
         display: inline-block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+        background: white;
+        color: #121818;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        margin-top: 5%;
     }
-    
-    .contactlist li a:hover, .dropdown:hover .dropbtn {
-        background-color: #C20114;
+
+    .backgroundPortfolio {
+        width: 100%;
+    }
+
+    .aboutus {
+        width: 20%;
+        border-radius: 50%;
+    }
+
+    .Introducing {
+        width: 20%;
+    }
+    /*////////////// end about us ////////////////*/
+
+
+    /*////////////// footer ////////////////*/
+    .contactlist {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        text-align: center;
     }
     
     .copyright {
-        background-color: #121818;;
-        color: white;
         text-align: center;
         width: 100%;
         clear: both;
     }
 
+    .contact {
+        background-color: #121818;
+        color: white;
+    }
+    /*////////////// end footer ////////////////*/
 }
