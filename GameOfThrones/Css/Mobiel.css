@@ -35,9 +35,8 @@
     
     
     .nav1 li {
-       float: left;
+        float: left;
         width: 100%;
-      
     }
     
     .nav1 li a, .dropbtn {
@@ -110,6 +109,13 @@
     }
     /*////////////// end columns ////////////////*/
 
+    /*////////////// Index ////////////////*/
+    .video {
+        text-align: center;
+    }
+    
+    /*////////////// end Index ////////////////*/
+
     /*////////////// about us ////////////////*/
     .backgroundAboutus {
         display: inline-block;
@@ -135,24 +141,107 @@
     }
     /*////////////// end about us ////////////////*/
 
+    /*////////////// contact ////////////////*/
+    .contact {
+        background-color: #121818;
+        float: left;
+        color: white;
+    }
 
-    /*////////////// footer ////////////////*/
-    .contactlist {
+    .contactFormTitle {
+        display: inline-block;
+        background-color: #C20114;
+        margin-left: 5%;
+        width: 90%;
+        color: #121818;
+        text-align: center;
+    }
+
+    .contactFormTitle > h1 {
+        margin-top: 10%;
+    }
+
+    .contactFormBody {
+        display: inline-block;
+        background-color: white;
+        margin-left: 5%;
+        width: 90%;
+        color: #121818;
+        text-align: center;
+    }
+
+    .Voornaam {
+        display: block;
+        margin: 2%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .Achternaam {
+        display: block;
+        margin: 2%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .Land {
+        display: block;
+        margin: 2%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .Vraag {
+        display: block;
+        margin: 2%;
+        height: 200px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .Send {
+        background-color: #121818;
+        color: white;
+        text-align: center;
+        padding: 25px;
+        width: 20%;
+        margin: 1%;
+    }
+      
+    .Send span {
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+      
+    .Send span:after {
+        position: absolute;
+        transition: 0.5s;
+    }
+      
+    .Send:active {
+        background-color: #C20114;
+    }
+
+    /*////////////// end contact ////////////////*/
+
+   /*////////////// footer ////////////////*/
+   .contactlist {
         display: flex;
         flex-direction: column;
         list-style-type: none;
         text-align: center;
+        color: white;
+        overflow: hidden;
     }
-    
+
     .copyright {
         text-align: center;
         width: 100%;
-        clear: both;
+        color: white;
+
     }
 
-    .contact {
-        background-color: #121818;
-        color: white;
-    }
-    /*////////////// end footer ////////////////*/
+
+/*////////////// end footer ////////////////*/
 }
