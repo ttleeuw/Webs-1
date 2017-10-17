@@ -447,6 +447,16 @@
         height: 200px;
     }
 
+    .Send span:after {
+        transition: 0.5s;
+    }
+      
+    .Send:hover span {
+        padding-right: 25px;
+    }
+      
+
+
     /*////////////// end contact ////////////////*/
 
     /*////////////// footer ////////////////*/
@@ -461,29 +471,4 @@
         text-align: center;
         width: 100%;
         clear: both;
-    }
-
-   
-    /*////////////// end footer ////////////////*/
->>>>>>> 10951fa7ce55379cd13c42676b28d18455306c8e
-
-        /*////////////// end contact ////////////////*/
-    
-        /*////////////// footer ////////////////*/
-        .contactlist {
-            display: flex;
-            flex-direction: column;
-            list-style-type: none;
-            text-align: center;
-        }
-        
-        .copyright {
-            text-align: center;
-            width: 100%;
-            clear: both;
-        }
-    
-       
-        /*////////////// end footer ////////////////*/
-    
     }

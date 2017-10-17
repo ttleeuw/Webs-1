@@ -43,11 +43,6 @@
         padding-bottom: 30px;
     }
     
-<<<<<<< HEAD
-    .nav1 li {
-        float: left;
-        width: 100%;
-=======
     .sideswipe{
         display: none;
         background-color: #121818;
@@ -56,7 +51,6 @@
         width: 100%;
         margin:0;
         padding:0;
->>>>>>> 10951fa7ce55379cd13c42676b28d18455306c8e
     }
     
     .sideswipe li a {
@@ -235,25 +229,6 @@
         margin-left: 10%;
     }
 
-    .Send {
-        background-color: #121818;
-        color: white;
-        text-align: center;
-        padding: 25px;
-        width: 20%;
-        margin: 1%;
-    }
-      
-    .Send span {
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-      
-    .Send span:after {
-        position: absolute;
-        transition: 0.5s;
-    }
       
     .Send:active {
         background-color: #C20114;
