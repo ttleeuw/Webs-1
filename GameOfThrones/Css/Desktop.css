@@ -2,279 +2,64 @@
 
 @media only screen and (min-device-width : 1024px) {
     
-        @font-face {
-            font-family: gameofthrones;
-            src: url("GameofThrones.ttf");
-        }
+@font-face {
+    font-family: gameofthrones;
+    src: url("GameofThrones.ttf");
+}
         
-        header {
-            margin: 0;
-        }
+header {
+    margin: 0;
+}
         
-        body { 
-            margin: 0;
-            font-family: gameofthrones;
-            background-color: #121818;
-            color: white;
-            
-        }
+body { 
+    margin: 0;
+    font-family: gameofthrones;
+    background-color: #121818;
+    color: white;     
+}
         
     
-    /*////////////// nav ////////////////*/
-        nav {
-            position: fixed;
-            width: 100%;
-            
-        }
-        
-        .nav1 {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #121818;
-        }
-        
-        
-        li {
-            float: left;
-          
-        }
-        
-        li a, .dropbtn {
-            display: inline-block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-        
-        li a:hover, .dropdown:hover .dropbtn {
-            background-color: #C20114;
-        }
-        
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #121818;;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
-        
-        .dropdown-content a {
-            color: white;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            text-align: left;
-        }
-        
-        .dropdown-content a:hover {background-color: #C20114}
-        
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-        /*////////////// end nav ////////////////*/
-        
-        .LandscapePicTop {
-            width: 100%;
-            margin-bottom: 5%;
-        }
-    
-        .LandscapePic {
-            width: 100%;
-            margin-top: 5%;
-            margin-bottom: 5%;
-        }
-        
-        .row{
-            text-align: center;
-            color: white;
-            display: flex;
-        
-        }
-        
-        /*////////////// collums ////////////////*/
-        .col1 {
-            width: 100%;
-            text-align: center;
-            padding: 5px;
-        }
-        
-        .col2 {
-            width: 50%;
-            text-align: center;
-            padding: 5px;
-            float: left;
-            margin: 5%;
-        }
-        
-        .col3 {
-            width: 100%;
-            text-align: center;
-            padding: 5px;
-        
-        }
-        /*////////////// end collums ////////////////*/
-    
-<<<<<<< HEAD
-        /*////////////// Index ////////////////*/
-        .video {
-            text-align: center;
-        }
-    
-        /*////////////// end Index ////////////////*/
-    
-    
-        /*////////////// about us ////////////////*/
-        .backgroundAboutus {
-            display: inline-block;
-            background: white;
-            color: #121818;
-            text-align: center;
-            width: 80%;
-            margin-left: 10%;
-            margin-bottom: 5%;
-            margin-top: 5%;
-        }
-    
-        .backgroundPortfolio {
-            width: 100%;
-        }
-    
-        .aboutus {
-            width: 20%;
-            border-radius: 50%;
-        }
-    
-        .Introducing {
-            width: 20%;
-        }
-        /*////////////// end about us ////////////////*/
-    
-        /*////////////// contact ////////////////*/
-        .contact {
-            background-color: #121818;
-            float: left;
-            color: white;
-        }
-    
-        .contactFormTitle {
-            display: inline-block;
-            background-color: #C20114;
-            margin-left: 20%;
-            width: 60%;
-            color: #121818;
-            text-align: center;
-        }
-    
-        .contactFormTitle > h1 {
-            margin-top: 10%;
-        }
-    
-        .contactFormBody {
-            display: inline-block;
-            background-color: white;
-            margin-left: 20%;
-            width: 60%;
-            color: #121818;
-            text-align: center;
-        }
-    
-        .Voornaam {
-            display: block;
-            margin: 2%;
-            width: 80%;
-            margin-left: 10%;
-        }
-    
-        .Achternaam {
-            display: block;
-            margin: 2%;
-            width: 80%;
-            margin-left: 10%;
-        }
-    
-        .Land {
-            display: block;
-            margin: 2%;
-            width: 80%;
-            margin-left: 10%;
-        }
-    
-        .Vraag {
-            display: block;
-            margin: 2%;
-            height: 200px;
-            width: 80%;
-            margin-left: 10%;
-        }
-    
-        .Send {
-            background-color: #121818;
-            color: white;
-            text-align: center;
-            padding: 25px;
-            width: 20%;
-            margin: 1%;
-        }
-          
-        .Send span {
-            display: inline-block;
-            position: relative;
-            transition: 0.5s;
-        }
-          
-        .Send span:after {
-            position: absolute;
-            transition: 0.5s;
-        }
-          
-        .Send:hover span {
-            padding-right: 5%;
-        }
+/*////////////// nav ////////////////*/
+nav {
+    position: fixed;
+    background-color: black;
+    font-size: 30px;
+    width:100%;
+}
 
-        .Send:hover {background-color: #C20114}
-=======
-    nav {
-        position: fixed;
-        background-color: black;
-        font-size: 30px;
-        width:100%;
-    }
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-    nav a {
-        text-decoration: none;
-    }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
-    .nav1{
-        display:inline-block;
-        vertical-align: top;
-    }
+nav a {
+    text-decoration: none;
+}
 
-    .nav1 > li {
-        padding: 10px;
-    }
+.nav1{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.nav1 > li {
+    padding: 10px;
+}
     
-    .sideswipe{
-        display:none;
-    }
+.sideswipe{
+    display:none;
+}
     
-    .sidewipe > li {
-        display: inline-block;
-        vertical-align: top;
-        text-decoration: none;
-    }
+.sidewipe > li {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+}
 
-    .sideswipe a{
-        color: white;
-    }
+.sideswipe a{
+    color: white;
+}
     
     li a:hover, .dropdown:hover {
         background-color: #C20114;
@@ -321,6 +106,83 @@
         display: block;
     }
     /*////////////// end nav ////////////////*/
+
+        
+    .LandscapePicTop {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    
+    .LandscapePic {
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+        
+    .row{
+        text-align: center;
+        color: white;
+        display: flex;
+    }
+        
+    /*////////////// collums ////////////////*/
+    .col1 {
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+        
+    .col2 {
+        width: 50%;
+        text-align: center;
+        padding: 5px;
+        float: left;
+        margin: 5%;
+    }
+        
+    .col3 {
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+    /*////////////// end collums ////////////////*/
+    
+
+    /*////////////// Index ////////////////*/
+    .video {
+        text-align: center;
+    }
+    
+    /*////////////// end Index ////////////////*/
+    
+    
+     /*////////////// about us ////////////////*/
+    .backgroundAboutus {
+        display: inline-block;
+        background: white;
+        color: #121818;
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    
+    .backgroundPortfolio {
+        width: 100%;
+    }
+    
+    .aboutus {
+        width: 20%;
+        border-radius: 50%;
+    }
+    
+    .Introducing {
+        width: 20%;
+    }
+    /*////////////// end about us ////////////////*/
+
+    
     
     .LandscapePicTop {
         width: 100%;
@@ -364,8 +226,8 @@
     /*////////////// end collums ////////////////*/
 
     /*////////////// Index ////////////////*/
-    .video {
-        text-align: center;
+    iframe {
+        margin-left: 25%;
     }
 
     /*////////////// end Index ////////////////*/
@@ -423,40 +285,63 @@
         margin-left: 20%;
         width: 60%;
         color: #121818;
+        text-align: center;
     }
 
     .Voornaam {
         display: block;
         margin: 2%;
+        width: 80%;
+        margin-left: 10%;
     }
 
     .Achternaam {
         display: block;
         margin: 2%;
+        width: 80%;
+        margin-left: 10%;
     }
 
     .Land {
         display: block;
         margin: 2%;
+        width: 80%;
+        margin-left: 10%;
     }
 
     .Vraag {
         display: block;
         margin: 2%;
         height: 200px;
+        width: 80%;
+        margin-left: 10%;
     }
 
+    .Send {
+        background-color: #121818;
+        color: white;
+        text-align: center;
+        padding: 25px;
+        width: 20%;
+        margin: 1%;
+    }
+      
+    .Send span {
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+      
     .Send span:after {
+        position: absolute;
         transition: 0.5s;
     }
       
     .Send:hover span {
-        padding-right: 25px;
+        padding-right: 5%;
     }
-      
 
-
-    /*////////////// end contact ////////////////*/
+    .Send:hover {background-color: #C20114}
 
     /*////////////// footer ////////////////*/
     .contactlist {
@@ -464,10 +349,18 @@
         flex-direction: column;
         list-style-type: none;
         text-align: center;
+        
+        
     }
     
+    .contactlist a {
+        text-decoration: none;
+        color: white;
+    }
+
     .copyright {
         text-align: center;
         width: 100%;
         clear: both;
     }
+}
