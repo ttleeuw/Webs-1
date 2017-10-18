@@ -140,14 +140,21 @@
     }
     /*////////////// end columns ////////////////*/
 
+ /*////////////// Index ////////////////*/
+    .video {
+        text-align: center;
+    }
+
+/*////////////// end Index ////////////////*/
+
     /*////////////// Index ////////////////*/
     .video {
         text-align: center;
     }
-    
-    /*////////////// end Index ////////////////*/
+        
+        /*////////////// end Index ////////////////*/
 
-    /*////////////// about us ////////////////*/
+        /*////////////// about us ////////////////*/
     .backgroundAboutus {
         display: inline-block;
         background: white;
@@ -238,41 +245,46 @@
         width: 20%;
         margin: 1%;
     }
-      
+        
     .Send span {
         display: inline-block;
         position: relative;
         transition: 0.5s;
     }
-      
+        
     .Send span:after {
         position: absolute;
         transition: 0.5s;
     }
-      
+        
     .Send:active {
         background-color: #C20114;
     }
 
     /*////////////// end contact ////////////////*/
 
-   /*////////////// footer ////////////////*/
-   .contactlist {
+    /*////////////// footer ////////////////*/
+
+    .contactlist {
         display: flex;
         flex-direction: column;
         list-style-type: none;
         text-align: center;
+        
+        
+    }
+    
+    .contactlist a {
+        text-decoration: none;
         color: white;
-        overflow: hidden;
     }
 
     .copyright {
         text-align: center;
         width: 100%;
-        color: white;
-
+        clear: both;
     }
 
 
-/*////////////// end footer ////////////////*/
+    /*////////////// end footer ////////////////*/
 }
