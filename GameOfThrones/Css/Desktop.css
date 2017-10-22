@@ -25,6 +25,7 @@ nav {
     background-color: black;
     font-size: 30px;
     width:100%;
+    z-index: 9999;
 }
 
 nav ul {

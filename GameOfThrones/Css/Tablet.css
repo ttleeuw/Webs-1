@@ -62,7 +62,7 @@
         display:none;
         padding:10px;
         list-style-type: none;
-        background-color: #E00C20;
+        background-color: #121818;
         width: 100%;
     }
     
@@ -90,5 +90,62 @@
         display: block;
         padding:10px;
      }
+
+     #Houses{
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #Houses > h2{
+        margin-top: 130px;
+        margin-bottom:0;
+        text-align: center;
+        font-size: 50px;
+        width:100%;
+    }
+
+    #Houses > .landscapePic{
+        position: relative;
+    }
+
+    #Houses h1{
+        position: relative;
+        width:100%;
+        top: -300px;
+        text-align: center;
+        font-size: 50px;
+        margin:0;
+    }
+    #Houses p{
+        margin:0;
+        padding: 30px 30px;
+        font-size: 1em;
+    }
+
+    #Houses div{
+        padding-top: 40px;
+    }
+
+    #Stark > h1{
+        color: black;
+    }
+
+    .round{
+        width: 30%;
+        height: 300px;
+        border-radius: 50%;
+        
+    }
+
+    .aRound{
+        display:flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+    }
+
+    .centerP{
+        text-align: center;
+    }
 
 }
