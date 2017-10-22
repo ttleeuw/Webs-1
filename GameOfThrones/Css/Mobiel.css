@@ -108,8 +108,6 @@
      }
     
     /*////////////// end nav ////////////////*/
-    
-
 
     .LandscapePic {
         width: 100%;
@@ -176,13 +174,20 @@
         width: 100%;
     }
 
-    .aboutus {
+    .aboutustop {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
         width: 20%;
         border-radius: 50%;
+        margin-top: 5%;
     }
 
     .Introducing {
-        width: 20%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
     }
     /*////////////// end about us ////////////////*/
 
