@@ -25,6 +25,7 @@ nav {
     background-color: black;
     font-size: 30px;
     width:100%;
+    z-index:9999;
 }
 
 nav ul {
@@ -272,63 +273,7 @@ nav a {
     /*////////////// end about us ////////////////*/
 
 
-    #Houses{
-        color: white;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #Houses > h2{
-        margin-top: 100px;
-        margin-bottom:0;
-        text-align: center;
-        font-size: 40px;
-        width:100%;
-    }
-
-    #Houses .landscapePics{
-        position: relative;
-        width:100%;
-    }
-
-    #Houses h1{
-        position: relative;
-        width:100%;
-        top: -500px;
-        text-align: center;
-        font-size: 50px;
-        margin:0;
-    }
-    #Houses p{
-        margin:0;
-        padding: 30px 30px;
-        font-size: 30px;
-    }
-
-    #Houses div{
-        padding-top: 40px;
-    }
-
-    #Stark > h1{
-        color: black;
-    }
-
-    .round{
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-        
-    }
-
-    .aRound{
-        display:flex;
-        justify-content:space-around;
-        flex-wrap: wrap;
-    }
-
-    .centerP{
-        text-align: center;
-    }
+   
 
 
 
@@ -420,6 +365,7 @@ nav a {
     /*////////////// end contact ////////////////*/
 
     /*////////////// houses ////////////////*/
+   
     #Houses{
         color: white;
         display: flex;
@@ -427,21 +373,21 @@ nav a {
     }
 
     #Houses > h2{
-        margin-top: 130px;
+        margin-top: 100px;
         margin-bottom:0;
         text-align: center;
-        font-size: 50px;
+        font-size: 40px;
         width:100%;
     }
 
-    #Houses > .landscapePic{
-        position: relative;
+    #Houses .landscapePics{
+        width:100%;
     }
 
     #Houses h1{
         position: relative;
         width:100%;
-        top: -300px;
+        top: -500px;
         text-align: center;
         font-size: 50px;
         margin:0;
@@ -449,7 +395,7 @@ nav a {
     #Houses p{
         margin:0;
         padding: 30px 30px;
-        font-size: 1em;
+        font-size: 30px;
     }
 
     #Houses div{
@@ -461,7 +407,7 @@ nav a {
     }
 
     .round{
-        width: 30%;
+        width: 300px;
         height: 300px;
         border-radius: 50%;
         
@@ -470,7 +416,7 @@ nav a {
     .aRound{
         display:flex;
         justify-content:space-around;
-        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .centerP{
