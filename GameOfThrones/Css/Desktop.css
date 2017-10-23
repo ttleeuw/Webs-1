@@ -25,7 +25,6 @@ nav {
     background-color: black;
     font-size: 30px;
     width:100%;
-    z-index: 9999;
 }
 
 nav ul {
@@ -146,6 +145,12 @@ nav a {
         text-align: center;
         padding: 5px;
     }
+
+    .col3 a{
+        text-decoration: none;
+        color: white;
+    }
+    
     /*////////////// end collums ////////////////*/
     
 
@@ -248,6 +253,12 @@ nav a {
 
     .backgroundPortfolio {
         width: 100%;
+    }
+
+    .aboutustop {
+        width: 20%;
+        border-radius: 50%;
+        margin-top: 5%;
     }
 
     .aboutus {
@@ -406,14 +417,74 @@ nav a {
 
     .Send:hover {background-color: #C20114}
 
+    /*////////////// end contact ////////////////*/
+
+    /*////////////// houses ////////////////*/
+    #Houses{
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #Houses > h2{
+        margin-top: 130px;
+        margin-bottom:0;
+        text-align: center;
+        font-size: 50px;
+        width:100%;
+    }
+
+    #Houses > .landscapePic{
+        position: relative;
+    }
+
+    #Houses h1{
+        position: relative;
+        width:100%;
+        top: -300px;
+        text-align: center;
+        font-size: 50px;
+        margin:0;
+    }
+    #Houses p{
+        margin:0;
+        padding: 30px 30px;
+        font-size: 1em;
+    }
+
+    #Houses div{
+        padding-top: 40px;
+    }
+
+    #Stark > h1{
+        color: black;
+    }
+
+    .round{
+        width: 30%;
+        height: 300px;
+        border-radius: 50%;
+        
+    }
+
+    .aRound{
+        display:flex;
+        justify-content:space-around;
+        flex-direction: row;
+    }
+
+    .centerP{
+        text-align: center;
+    }
+
+    /*////////////// end houses ////////////////*/
+
     /*////////////// footer ////////////////*/
     .contactlist {
         display: flex;
         flex-direction: column;
         list-style-type: none;
         text-align: center;
-        
-        
     }
     
     .contactlist a {
@@ -425,5 +496,7 @@ nav a {
         text-align: center;
         width: 100%;
         clear: both;
+        color: white;
     }
+
 }
