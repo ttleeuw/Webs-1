@@ -156,8 +156,9 @@ nav a {
     
 
     /*////////////// Index ////////////////*/
-    .video {
-        text-align: center;
+    .Video {
+        display:flex;
+        justify-content: center;
     }
     
     /*////////////// end Index ////////////////*/
@@ -231,14 +232,6 @@ nav a {
     
     }
     /*////////////// end collums ////////////////*/
-
-    /*////////////// Index ////////////////*/
-    iframe {
-        margin-left: 25%;
-    }
-
-    /*////////////// end Index ////////////////*/
-
 
     /*////////////// about us ////////////////*/
     .backgroundAboutus {
@@ -416,7 +409,7 @@ nav a {
     .aRound{
         display:flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
        
     }
 
@@ -432,6 +425,7 @@ nav a {
         flex-direction: column;
         list-style-type: none;
         text-align: center;
+        padding:0;
     }
     
     .contactlist a {
