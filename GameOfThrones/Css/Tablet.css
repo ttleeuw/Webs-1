@@ -107,8 +107,94 @@
      }
      /*//////////////  end nav ////////////////*/
 
-     
-     /*////////////// houses ////////////////*/
+
+     .LandscapePicTop {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    
+    .LandscapePic {
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+        
+    .row{
+        text-align: center;
+        color: white;
+        display: flex;
+    }
+        
+    /*////////////// collums ////////////////*/
+    .col1 {
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+        
+    .col2 {
+        width: 50%;
+        text-align: center;
+        padding: 5px;
+        float: left;
+        margin: 5%;
+    }
+        
+    .col3 {
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .col3 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    /*////////////// end collums ////////////////*/
+    
+
+    /*////////////// Index ////////////////*/
+    .video {
+        align-items: center;
+    }
+    
+    /*////////////// end Index ////////////////*/
+    
+    /*////////////// about us ////////////////*/
+    .backgroundAboutus {
+        display: inline-block;
+        background: white;
+        color: #121818;
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    .backgroundPortfolio {
+        width: 100%;
+    }
+
+    .aboutustop {
+        width: 20%;
+        border-radius: 50%;
+        margin-top: 5%;
+    }
+
+    .aboutus {
+        width: 20%;
+        border-radius: 50%;
+    }
+
+    .Introducing {
+        width: 20%;
+    }
+    
+    /*////////////// end about us ////////////////*/
+
+    /*////////////// houses ////////////////*/
      #Houses{
         color: white;
         display: flex;
@@ -177,6 +263,7 @@
     .contactFormTitle {
         display: inline-block;
         background-color: #C20114;
+        margin-top: 5%;
         margin-left: 5%;
         width: 90%;
         color: #121818;
@@ -250,5 +337,26 @@
     }
 
     /*////////////// end contact ////////////////*/
+
+    /*////////////// footer ////////////////*/
+    .contactlist {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        text-align: center;
+    }
+    
+    .contactlist a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .copyright {
+        text-align: center;
+        width: 100%;
+        clear: both;
+        color: white;
+    }
+    /*////////////// end footer ////////////////*/
 
 }
