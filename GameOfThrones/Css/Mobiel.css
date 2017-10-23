@@ -140,7 +140,15 @@
         padding-bottom: 5px;
     }
 
-    
+    .col3 a{
+        width: 100%;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-decoration: none;
+        color:white;
+        font-size:50px;
+    }
     /*////////////// end columns ////////////////*/
 
     /*////////////// Index ////////////////*/
