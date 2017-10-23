@@ -143,7 +143,8 @@
     .col3 {
         width: 100%;
         text-align: center;
-        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     .col3 a{
@@ -155,10 +156,9 @@
     
 
     /*////////////// Index ////////////////*/
-    .video {
-        align-items: center;
+    .Video {
+        text-align: center;
     }
-    
     /*////////////// end Index ////////////////*/
     
     /*////////////// about us ////////////////*/
