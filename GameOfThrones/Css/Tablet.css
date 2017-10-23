@@ -123,8 +123,9 @@
         width:100%;
     }
 
-    #Houses > .landscapePic{
+    #Houses .landscapePic{
         position: relative;
+        width:100%;
     }
 
     #Houses h1{
