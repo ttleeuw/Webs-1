@@ -217,10 +217,12 @@
         font-size: 50px;
         margin:0;
     }
+    
     #Houses p{
         margin:0;
         padding: 30px 30px;
         font-size: 1em;
+        text-align: center;
     }
 
     #Houses div{
