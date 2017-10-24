@@ -238,15 +238,10 @@ nav a {
         display: inline-block;
         background: white;
         color: #121818;
-        text-align: center;
         width: 80%;
         margin-left: 10%;
         margin-bottom: 5%;
         margin-top: 5%;
-    }
-
-    .backgroundPortfolio {
-        width: 100%;
     }
 
     .aboutustop {
@@ -260,9 +255,7 @@ nav a {
         border-radius: 50%;
     }
 
-    .Introducing {
-        width: 20%;
-    }
+
     /*////////////// end about us ////////////////*/
 
 
