@@ -147,11 +147,6 @@
         padding-bottom: 5px;
     }
 
-    .col3 a{
-        text-decoration: none;
-        color: white;
-    }
-    
     /*////////////// end collums ////////////////*/
     
 
@@ -194,8 +189,8 @@
     
     /*////////////// end about us ////////////////*/
 
-    /*////////////// houses ////////////////*/
-     #Houses{
+    /*////////////// Houses ////////////////*/
+    #Houses{
         color: white;
         display: flex;
         flex-wrap: wrap;
@@ -209,7 +204,7 @@
         width:100%;
     }
 
-    #Houses .landscapePic{
+    #Houses .landscapePics{
         position: relative;
         width:100%;
     }
@@ -237,8 +232,8 @@
     }
 
     .round{
-        width: 500px;
-        height: 500px;
+        width: 30%;
+        height: 300px;
         border-radius: 50%;
         
     }

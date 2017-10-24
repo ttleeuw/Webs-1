@@ -111,6 +111,7 @@
 
     .LandscapePic {
         width: 100%;
+        margin-bottom: 5%;
     }
     
     .row{
@@ -138,16 +139,6 @@
         text-align: center;
         padding-top: 5px;
         padding-bottom: 5px;
-    }
-
-    .col3 a{
-        width: 100%;
-        text-align: center;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        text-decoration: none;
-        color:white;
-        font-size:50px;
     }
     /*////////////// end columns ////////////////*/
 
@@ -184,13 +175,10 @@
         margin-top: 5%;
     }
 
-    .Introducing {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-    }
     /*////////////// end about us ////////////////*/
 
+
+    /*////////////// Houses ////////////////*/
     #Houses{
         color: white;
         display: flex;
@@ -248,7 +236,7 @@
     .centerP{
         text-align: center;
     }
-
+    /*////////////// end houses ////////////////*/
 
     /*////////////// contact ////////////////*/
     .contact {
